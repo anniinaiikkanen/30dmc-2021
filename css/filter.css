@@ -17,7 +17,7 @@
   width: 20%;
 }
 .filterselect{
-  
+  display: none;
   font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
   margin-top: 10px;
   margin-left: 10px;
