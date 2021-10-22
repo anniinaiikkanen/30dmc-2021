@@ -46,7 +46,7 @@ var lyr_tokyodissolved1_2 = new ol.layer.Vector({
 
 lyr_CartoLightNoLabels_0.setVisible(true);lyr_tokyogrid1_1.setVisible(true);lyr_tokyodissolved1_2.setVisible(true);
 var layersList = [lyr_CartoLightNoLabels_0,lyr_tokyogrid1_1,lyr_tokyodissolved1_2];
-lyr_tokyogrid1_1.set('fieldAliases', {'fid': 'fid', 'bar-count': 'bar-count', 'church-count': 'church-count', 'zone': 'zone', });
+lyr_tokyogrid1_1.set('fieldAliases', {'fid': 'FID', 'bar-count': 'Number of bars', 'church-count': 'Number of churches', 'zone': 'Zone type', });
 lyr_tokyodissolved1_2.set('fieldAliases', {'fid': 'fid', });
 lyr_tokyogrid1_1.set('fieldImages', {'fid': 'TextEdit', 'bar-count': 'TextEdit', 'church-count': 'TextEdit', 'zone': 'TextEdit', });
 lyr_tokyodissolved1_2.set('fieldImages', {'fid': '', });
