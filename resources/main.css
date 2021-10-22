@@ -8,8 +8,13 @@
 #col-2 {
     display: flex;
     float: left;
-    width: 40%;
     padding: 0em 2em;
+}
+
+#content {
+    display: block;
+    position: absolute;
+    top: 20%;
 }
 
 /* Text */
@@ -18,10 +23,10 @@ p {
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
     font-weight: normal;
-    letter-spacing: 1px;
+    line-height: 140%;
 }
 
 h1 {
-    font-size: 160%;
+    font-size: 200%;
     font-weight: bold;
 }
