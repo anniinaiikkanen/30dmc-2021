@@ -48,13 +48,17 @@
             height: 813px;
         }
         </style>
-        <title></title>
+        <title>30dmc day 25</title>
     </head>
     <body>
-        <div id="map">
-            <div id="popup" class="ol-popup">
-                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-                <div id="popup-content"></div>
+        <div id="container"></div>
+        <div id="header">30DayMapChallenge day 25: Interactive map</div>
+        <div id="col-1">
+            <div id="map">
+                <div id="popup" class="ol-popup">
+                    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                    <div id="popup-content"></div>
+                </div>
             </div>
         </div>
         <script src="resources/qgis2web_expressions.js"></script>
@@ -67,5 +71,9 @@
         <script src="./layers/layers.js" type="text/javascript"></script> 
         <script src="./resources/Autolinker.min.js"></script>
         <script src="./resources/qgis2web.js"></script>
+        <div id="col-2">
+        <div id="content"><p>In this map you can find three different grid zones: pray zone, bar zone, and bar pray zones. In pray zones, there are more churches than bars. In bar zones, there are more bars than churches. In bar pray zones, there is equal amount of both. Data source: OpenStreetMap.</p></div>
+        </div>
+        
     </body>
 </html>
