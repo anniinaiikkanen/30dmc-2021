@@ -30,3 +30,9 @@ h1 {
     font-size: 200%;
     font-weight: bold;
 }
+
+/* Images */
+
+#content img {
+    padding: 0em 1em;
+}
